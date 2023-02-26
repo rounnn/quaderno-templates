@@ -108,6 +108,8 @@
         <td class="space12 w38per valign-top">
           <h2 class="label border-first">{{labels.from}}</h2>
           <h3 class="txt">{{ account.full_name }}</h3>
+           <h3 class="txt">Estelle Mackowiak</h3>
+           <h3 class="txt">Psychologue clinicienne et psychothérapeute</h3>
           {% if account.tax_id != blank %}<p>{{labels.tax_id}}: {{account.tax_id}}</p>{% endif %}
           <address>{{ account.formatted_address | newline_to_br }}</address>
           {% if account.email != blank %}<p><a href="mailto:{{account.email}}">{{ account.email }}</a></p>{% endif %}
